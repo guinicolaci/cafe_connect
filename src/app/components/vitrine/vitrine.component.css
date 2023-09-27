@@ -1,0 +1,36 @@
+/* LOGO DO SITE */
+.navbar-brand {
+  color: #6e6754 !important;
+  font-family: Dancing Script;
+  font-size: 30px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: none;
+  background-color: #DFDCCA;
+ }
+ 
+footer {
+    background-color: #DFDCCA;
+    padding: 25px;
+}
+    
+.carousel-inner img {
+    width: 100%; 
+    margin: auto;
+    min-height:200px;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+  .navbar-nav li.active a {
+    color: #DFDCCA !important;
+    background-color: #b0a1a1 !important;
+  }
+
+
