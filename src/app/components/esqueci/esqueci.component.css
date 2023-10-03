@@ -1,49 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
-
-* {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 14px;
-  text-decoration: none;
-  color: #9d9d9d;
+/* LOGO DO SITE */
+.navbar-brand {
+  color: #6e6754 !important;
+  font-family: Dancing Script;
+  font-size: 30px;
 }
 
-.container-fluid {
-  height: 50px;
-  display: flex;
+.navbar {
+  margin-bottom: 0;
+  border: none;
   background-color: #DFDCCA;
+ }
 
-  .navbar-brand {
-    color: #6e6754 !important;
-    font-family: 'Dancing Script', cursive;
-    font-size: 30px !important;
-    float: left;
-    height: 50px;
-    padding: 15px 15px;
-    font-size: 18px;
-    line-height: 20px;
+ .carrinho {
+  margin-top: 0.75rem;
+ }
+
+ .texto-carrinho {
+  padding-left: 1px;
+ }
+
+  .navbar-nav li.active a {
+    color: #DFDCCA !important;
+    background-color: #b0a1a1 !important;
   }
-
-  .collapse {
-    display: flex;
-    gap: 80rem;
-
-    .nav {
-      display: flex;
-      justify-content: space-between;
-      padding-top: 0.15rem;
-      list-style-type: none;
-      padding-left: 0;
-      .active {
-        padding-right: 1rem;
-      }
-
-      /* .active:hover a {
-        color: #DFDCCA !important;
-        background-color: #b0a1a1 !important;
-      } */
-    }
-  }
-}
-
 
 
