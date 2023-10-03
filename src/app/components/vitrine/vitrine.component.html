@@ -4,7 +4,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
-  <title>Bootstrap Example</title>
+  <title>Menu</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -26,14 +26,21 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Menu</a></li>
-        <li><a href="#">Produtos</a></li>
+        <li><a href="../produto-busca/produto-busca.component.html">Produtos</a></li>
         <li><a href="#">Contato</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
+      <form action="" class="navbar-form">
+        <div class="form-group">
+            <div class="input-group">
+                <input type="search" name="search" id="" placeholder="Buscar..." class="form-control">
+            </div>
+        </div>
+      </form>
     </div>
-    </div>
+  </div>
 </nav>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">

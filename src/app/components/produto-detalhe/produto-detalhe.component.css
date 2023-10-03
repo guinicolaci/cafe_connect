@@ -2,17 +2,37 @@
 .navbar-brand {
     color: #6e6754 !important;
     font-family: Dancing Script;
-    font-size: 30px;
-}
-
-.navbar {
-    margin-bottom: 30px;
+    font-size: 40px;
+  }
+  
+  .navbar {
+    margin-bottom: 0;
     border: none;
     background-color: #DFDCCA;
-}
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+   }
+   
+  footer {
+      background-color: #DFDCCA;
+      padding: 25px;
+  }
 
+  .navbar-nav li.active a {
+    color: #DFDCCA !important;
+    background-color: #b0a1a1 !important;
+  }
+  
 
-
+  .form-control{
+    height: auto;
+    width: auto;
+    margin-left: 75%;
+    margin-right: 50%;
+  }
+  
+ 
 .descricao-produtos h2 {
     font-size: 4rem;
     line-height: 1.2;

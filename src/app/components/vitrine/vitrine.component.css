@@ -37,13 +37,10 @@ footer {
     background-color: #b0a1a1 !important;
   }
 
-  
    .form-control{
     height: auto;
     width: auto;
-    margin-top: 7px;
-    margin-bottom: 7px;
-    margin-left: 50%;
+    margin-left: 75%;
     margin-right: 50%;
   }
   
