@@ -1,27 +1,45 @@
-<nav class="navbar navbar-default">
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
       <a class="navbar-brand" href="#">Café Connect</a>
     </div>
-    <div class="collapse">
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Página Inicial</a></li>
-        <li class="active"><a href="#">Produtos</a></li>
-        <li class="active"><a href="#">Sobre Nós</a></li>
-        <li class="active"><a href="#">Contato</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Sobre Nós</a></li>
+        <li><a href="#">Contato</a></li>
       </ul>
-      <ul class="nav carrinho">
-        <li>
-          <a href="#">
-            <img src="../../../assets/carrinho.png" alt="Carrinho" class="carrinho" width="10px">
-          </a>
-        </li>
-        <li>
-          <p>Carrinho</p>
-        </li>
+      <ul class="nav navbar-nav navbar-right">
+        <li><img src="../../../assets/carrinho.png" alt="carrinho" width="30px" class="carrinho"></li>
+        <li ><a href="#" class="texto-carrinho">Carrinho</a></li>
       </ul>
     </div>
   </div>
 </nav>
+</body>
+</html>
+
+
 
 
