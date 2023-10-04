@@ -1,0 +1,113 @@
+/* LOGO DO SITE */
+.navbar-brand {
+    color: #6e6754 !important;
+    font-family: Dancing Script;
+    font-size: 40px;
+  }
+  
+  .navbar {
+    margin-bottom: 0;
+    border: none;
+    background-color: #DFDCCA;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+   }
+   
+  footer {
+      background-color: #DFDCCA;
+      padding: 25px;
+  }
+
+  .navbar-nav li.active a {
+    color: #DFDCCA !important;
+    background-color: #b0a1a1 !important;
+  }
+  
+
+  .form-control{
+    height: auto;
+    width: auto;
+    margin-left: 75%;
+    margin-right: 50%;
+  }
+  
+ 
+.descricao-produtos h2 {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 2px;
+}
+
+.descricao-produtos h5 h3 {
+    color: #6e6754;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.descricao-produtos h4 {
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: #129f05;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 70px;
+    font-size: 16px;
+    font-weight: 500;
+    background: #6e6754;
+    border: solid 2px #6e6754;
+    transition: all.55 ease;
+    color: white; 
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-center {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #129f05;
+    border: solid 2px #129f05;
+    color: white;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    /* Set width to 100% */
+    min-height: 100px;
+}
+
+.carousel-inner .produtos-img img {
+    height: 570px;
+    object-fit: contain; 
+}
+
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+
+}
+
+.navbar-nav li.active a {
+    color: #DFDCCA !important;
+    background-color: #b0a1a1 !important;
+}

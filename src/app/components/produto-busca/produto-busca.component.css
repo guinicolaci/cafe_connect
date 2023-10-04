@@ -1,0 +1,84 @@
+.navbar-brand {
+    color: #6e6754 !important;
+    font-family: Dancing Script;
+    font-size: 40px;
+  }
+  
+  .navbar {
+    margin-bottom: 0;
+    border: none;
+    background-color: #DFDCCA;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+   }
+   
+  footer {
+      background-color: #DFDCCA;
+      padding: 25px;
+  }
+
+  .navbar-nav li.active a {
+    color: #DFDCCA !important;
+    background-color: #b0a1a1 !important;
+  }
+
+  .form-control{
+    height: auto;
+    width: auto;
+    margin-left: 75%;
+    margin-right: 50%;
+  }
+  
+  
+.pesquisa {
+    margin-bottom: 20px;
+    margin-top: px;
+    margin-left: 200px;
+}
+
+.pesquisa span {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6e6754;
+}
+
+.pesquisa .btn {
+    color: white;
+    background-color: #6e6754;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+
+}
+
+.card img {
+    height: 330px;
+}
+
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #6e6754;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}

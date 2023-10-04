@@ -1,1 +1,104 @@
-<p>produto-busca works!</p>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+  <title>Produtos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="produto-busca.component.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Café Connect</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="../vitrine/vitrine.component.html">Menu</a></li>
+        <li class="active"><a href="./produto-busca.component.html">Produtos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+      <form action="" class="navbar-form">
+        <div class="form-group">
+            <div class="input-group">
+                <input type="search" name="search" id="" placeholder="Buscar..." class="form-control">
+            </div>
+        </div>
+      </form>
+    </div>
+    </div>
+</nav>
+<br><br><br>
+    <div class="pesquisa">
+        <span>Pesquisa por: </span>
+        <span></span>
+        <button class="btn">"Café"</button>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <a href="../produto-detalhe/produto-detalhe.component.html">
+                    <img src="produtos-img/produto1.png" alt="Denim Jeans" style="width:100%">
+                    <h4>3 Corações Café Torrado E Moído Extraforte Pacote 500G</h4>
+                    <p class="price">R$17,00</p>
+                    <p><button>Comprar</button></p>
+                </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="produtos-img/produto2.png" alt="Denim Jeans" style="width:100%">
+                    <h4>Café União Tradicional Torrado E Moído 500g</h4>
+                    <p class="price">R$16,50</p>
+                    <p><button>Comprar</button></p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="produtos-img/produto3.png" alt="Denim Jeans" style="width:100%">
+                    <h4>Café Melitta Tradicional Torrado E Moído 500g</h4>
+                    <p class="price">R$18,00</p>
+                    <p><button>Comprar</button></p>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="produtos-img/produto4.png" alt="Denim Jeans" style="width:100%">
+                    <h4>Café Melitta Extraforte Torrado E Moído 500g</h4>
+                    <p class="price">R$19,00</p>
+                    <p><button>Comprar</button></p>
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+    
+<footer class="container-fluid text-center">
+    <p>Café Connect / CNPJ: 00.000.000/0000-00, <br>
+      R. Frei João, 59 - Ipiranga, São Paulo - SP, 04280-130 <br>
+      contato@cafeconnect.com.br</p>
+  </footer>
+
+</body>
+
+</html>
