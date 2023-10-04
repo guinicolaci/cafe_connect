@@ -43,14 +43,28 @@
       font-size: 30px;
     }
 
+    .usuario-login, .senha-login {
+      margin: 0px;
+      font-weight: 100;
+      color: #6e6754;
+    }
 
     .input {
       height: 3rem;
       margin-bottom: 2rem;
     }
 
+    .esqueci-senha {
+      margin-top: 0.2rem;
+      color: #6e6754;
+      font-size: 12px;
+    }:hover {
+      font-style: inherit;
+    }
+
 
     .botao-login {
+      margin-top: 2rem;
       margin-bottom: 2rem;
       padding: 5px;
       border: 0;
@@ -60,12 +74,14 @@
     }
 
     .rodape-login {
-      display: flex;
-      justify-content: space-between;
-      > a {
+      text-align: center;
+      .cadastro {
         color: #6e6754;
+      }:hover {
+        font-style: inherit;
       }
     }
+
   }
 
 
