@@ -1,4 +1,5 @@
 /* LOGO DO SITE */
+
 .navbar-brand {
   color: #6e6754 !important;
   font-family: Dancing Script;
@@ -14,11 +15,9 @@
  .carrinho {
   margin-top: 0.75rem;
  }
-
  .texto-carrinho {
   padding-left: 1px;
  }
-
   .navbar-nav li.active a {
     color: #DFDCCA !important;
     background-color: #b0a1a1 !important;
@@ -36,6 +35,8 @@
     font-weight: 100;
 }
 
+
+
   .login {
     margin: 4% auto 0;
     padding: 3rem 5rem;
@@ -45,13 +46,16 @@
     background-color: #DFDCCA;
     border-radius: 1rem;
 
+
     .titulo-login {
       padding-left: 1.5rem;
       margin-bottom: 2rem;
       color: #6e6754 !important;
       font-family: Dancing Script;
-      font-size: 30px;
+      font-size: 50px;
     }
+
+
 
     .usuario-login, .senha-login {
       margin: 0px;
@@ -59,18 +63,19 @@
       color: #6e6754;
     }
 
+
     .input {
       height: 3rem;
       margin-bottom: 2rem;
     }
 
-    .esqueci-senha {
-      margin-top: 0.2rem;
-      color: #6e6754;
-      font-size: 12px;
-    }:hover {
-      font-style: inherit;
-    }
+    .container-senha {
+      display: flex;
+      margin-top: 2rem;
+      gap: 1rem;
+  }
+
+
 
     .botao-login {
       margin-top: 2rem;
@@ -81,15 +86,4 @@
       background-color: #6e6754;
       color: #DFDCCA;
     }
-
-    .rodape-login {
-      text-align: center;
-      .cadastro {
-        color: #6e6754;
-      }:hover {
-        font-style: inherit;
-      }
-    }
-
   }
-
