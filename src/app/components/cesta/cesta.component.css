@@ -1,0 +1,24 @@
+.navbar-brand {
+    color: #6e6754 !important;
+    font-family: Dancing Script;
+    font-size: 40px;
+  }
+  
+  .navbar {
+    margin-bottom: 0;
+    border: none;
+    background-color: #DFDCCA;
+   }
+  
+   .carrinho {
+    margin-top: 0.75rem;
+   }
+  
+   .texto-carrinho {
+    padding-left: 1px;
+   }
+  
+    .navbar-nav li.active a {
+      color: #DFDCCA !important;
+      background-color: #b0a1a1 !important;
+    }

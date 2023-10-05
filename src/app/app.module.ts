@@ -9,6 +9,7 @@ import { CestaComponent } from './components/cesta/cesta.component';
 import { LoginComponent } from './components/login/login.component';
 import { EsqueciComponent } from './components/esqueci/esqueci.component';
 import { VitrineComponent } from './components/vitrine/vitrine.component';
+import { CadastroComponent } from './components/login/cadastro/cadastro.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { VitrineComponent } from './components/vitrine/vitrine.component';
     ProdutoBuscaComponent,
     CestaComponent,
     LoginComponent,
-    EsqueciComponent
+    EsqueciComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
