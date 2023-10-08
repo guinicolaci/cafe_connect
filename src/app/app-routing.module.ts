@@ -12,6 +12,7 @@ import { CadastroComponent } from './components/login/cadastro/cadastro.componen
 
 const routes: Routes = [
   { path: '', component: VitrineComponent },
+  { path: 'vitrine', component: VitrineComponent },
   { path: 'cadastro', component: CadastroComponent },
   { path: 'login', component: LoginComponent },
   { path: 'senha', component: EsqueciComponent },

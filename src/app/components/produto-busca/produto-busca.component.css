@@ -13,6 +13,10 @@
     width: 100%;
    }
    
+   .carrinho {
+    margin-top: 0.75rem;
+   }
+
   footer {
       background-color: #DFDCCA;
       padding: 25px;
