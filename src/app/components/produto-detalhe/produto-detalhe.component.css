@@ -14,6 +14,10 @@
     width: 100%;
    }
    
+   .carrinho {
+     margin-top: 0.75rem;
+    }
+    
   footer {
       background-color: #DFDCCA;
       padding: 25px;
@@ -23,7 +27,6 @@
     color: #DFDCCA !important;
     background-color: #b0a1a1 !important;
   }
-  
 
   .form-control{
     height: auto;
