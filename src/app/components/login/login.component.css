@@ -135,13 +135,11 @@
       color: #DFDCCA;
     }
 
-    .rodape-login {
+    .cadastro {
       text-align: center;
-      .cadastro {
         color: #6e6754;
-      }:hover {
-        font-style: inherit;
-      }
+    }:hover {
+      font-style: inherit;
     }
 
   }

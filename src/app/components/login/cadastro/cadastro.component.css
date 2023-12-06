@@ -25,9 +25,9 @@
   }
 
   .login {
-    margin-left: 37%;
+    margin-left: 30%;
     margin-top: 7%;
-    padding: 3rem 5rem;
+    padding: 2rem 5rem;
     max-width:max-content;
     display: flex;
     flex-direction:column;
@@ -40,6 +40,7 @@
       color: #6e6754 !important;
       font-family: Dancing Script;
       font-size: 30px;
+      text-align: center;
     }
 
     .usuario-login, .senha-login {
