@@ -10,6 +10,8 @@ import { LoginComponent } from './components/login/login.component';
 import { EsqueciComponent } from './components/esqueci/esqueci.component';
 import { VitrineComponent } from './components/vitrine/vitrine.component';
 import { CadastroComponent } from './components/login/cadastro/cadastro.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,9 +26,11 @@ import { CadastroComponent } from './components/login/cadastro/cadastro.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [HttpClientModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

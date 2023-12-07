@@ -22,14 +22,14 @@
       </div>
     </div>
   </nav>
-  <div class="login">
+  <div class="form-group" [formGroup]="formGroup">
     <p class="titulo-login">Seja Bem vindo(a)!</p>
     <label for="usuario-login" class="usuario-login">Usuário</label>
-    <input type="email" id="usuario-login" class="input" placeholder="Digite seu usuário">
+    <input type="email" id="usuario-login" class="input" placeholder="Digite seu usuário" formControlName="email">
     <label for="senha-login" class="senha-login">Senha</label>
-    <input type="password" id="senha-login" placeholder="Digite sua senha">
+    <input type="password" id="senha-login" placeholder="Digite sua senha" formControlName="senha">
     <a href="/senha" class="esqueci-senha">Esqueci a senha</a>
-    <button class="botao-login">Entrar</button>
+    <button class="botao-login" (click)="fazerLogin()">Entrar</button>
     <a href="/cadastro" class="cadastro">Cadastre-se</a>
   </div>
 </body>

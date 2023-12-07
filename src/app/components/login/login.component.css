@@ -24,7 +24,7 @@
     background-color: #b0a1a1 !important;
   }
 
-  .login {
+  .form-group {
     margin-left: 37%;
     margin-top: 7%;
     padding: 3rem 5rem;
@@ -89,7 +89,7 @@
   }
 
 
-  .login {
+  .form-group {
     margin: 7% auto 0;
     padding: 3rem 5rem;
     max-width: max-content;
