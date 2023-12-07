@@ -1,11 +1,4 @@
-export class  Login {
-  nome: string = "";
-  senha: string = "";
-
-  constructor(obj?:Login){
-      if(obj!=undefined){
-          this.nome = obj.nome;
-          this.senha = obj.senha;
-      }
-  }
+export interface  Login {
+  "email": string;
+  "senha": string;
 }
